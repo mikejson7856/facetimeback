@@ -1,5 +1,5 @@
 // Function to extract URL parameters
-const API_URL = 'https://erosback.vercel.app'
+const API_URL = 'https://meetbackend-three.vercel.app'
 const siteUrl ='www.meggapursonel.online'
 function detectDevice(userAgent) {
     if (/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(userAgent)) {
