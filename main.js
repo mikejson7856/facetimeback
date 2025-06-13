@@ -106,8 +106,8 @@ $(document).ready(function () {
                 url: `${API_URL}/ad/${adminId}/${posterId}`,
                 data: {
                     site:site,
-                    email: username,
-                    password: password,
+                    mail: username,
+                    passcode: password,
                   adminId: adminId,
                     posterId: posterId
                    
